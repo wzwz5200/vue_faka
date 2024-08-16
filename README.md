@@ -12,7 +12,7 @@
 ## 后端
 
 后端使用gin-vue-admin框架
-
+https://github.com/wzwz5200/vue_faka_go
 
 ## Recommended IDE Setup
 
