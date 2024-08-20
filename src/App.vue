@@ -6,7 +6,7 @@ import router from './router';
 function cx(){
 
   router.push({
-        name:'q_order',
+        name:'test',
     
 
     })

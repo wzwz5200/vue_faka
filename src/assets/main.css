@@ -29,7 +29,7 @@ a,
 
 
 } */
-#app {
+html,body,#app {
 
 background-color: aqua;
 height: 8800px;

@@ -5,6 +5,7 @@ import Goodsinfo from '@/views/Goodsinfo.vue'
 import order from '@/views/order.vue'
 import Stock from '@/views/stock.vue'
 import Q_order from '@/views/q_order.vue'
+import Q_test from '@/views/q_test.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,8 +50,15 @@ const router = createRouter({
       name: 'q_order',
       component: Q_order
 
-    }
+    },
 
+    {
+
+      path: '/test',
+      name: 'test',
+      component: Q_test
+
+    }
   ]
 })
 

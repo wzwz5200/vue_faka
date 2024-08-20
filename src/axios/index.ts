@@ -4,7 +4,7 @@ import { axiosPolling } from 'axios-polling';
  
 // 默认配置
 const service: AxiosInstance = axios.create({
-  baseURL: "/proxy_url", // 设置API的基本URL，默认为根路径
+  baseURL: "http://localhost/api", // 设置API的基本URL，默认为根路径
   withCredentials: true
 })
  
